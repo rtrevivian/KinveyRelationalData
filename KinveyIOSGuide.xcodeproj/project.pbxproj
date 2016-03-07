@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7981FB6A1C860C2200ABE98B /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7981FB691C860C2200ABE98B /* DataViewController.swift */; };
+		7981FB6C1C86100F00ABE98B /* KinveyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7981FB6B1C86100F00ABE98B /* KinveyKit.framework */; };
 		79B9C06E1C7F7EF6000B61C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B9C06D1C7F7EF6000B61C8 /* AppDelegate.swift */; };
-		79B9C0701C7F7EF6000B61C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B9C06F1C7F7EF6000B61C8 /* ViewController.swift */; };
 		79B9C0731C7F7EF6000B61C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79B9C0711C7F7EF6000B61C8 /* Main.storyboard */; };
 		79B9C0761C7F7EF6000B61C8 /* KinveyIOSGuide.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79B9C0741C7F7EF6000B61C8 /* KinveyIOSGuide.xcdatamodeld */; };
 		79B9C0781C7F7EF6000B61C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79B9C0771C7F7EF6000B61C8 /* Assets.xcassets */; };
 		79B9C07B1C7F7EF6000B61C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79B9C0791C7F7EF6000B61C8 /* LaunchScreen.storyboard */; };
 		79B9C0861C7F7EF6000B61C8 /* KinveyIOSGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B9C0851C7F7EF6000B61C8 /* KinveyIOSGuideTests.swift */; };
+		79B9C0941C7F7F39000B61C8 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B9C0931C7F7F39000B61C8 /* Accounts.framework */; };
+		79B9C0961C7F7F40000B61C8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B9C0951C7F7F40000B61C8 /* CoreGraphics.framework */; };
+		79B9C0981C7F7F48000B61C8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B9C0971C7F7F48000B61C8 /* CoreLocation.framework */; };
+		79B9C09A1C7F7F52000B61C8 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B9C0991C7F7F52000B61C8 /* libsqlite3.tbd */; };
+		79B9C09C1C7F7F5C000B61C8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B9C09B1C7F7F5C000B61C8 /* MobileCoreServices.framework */; };
+		79B9C09E1C7F7F63000B61C8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B9C09D1C7F7F63000B61C8 /* Security.framework */; };
+		79B9C0A01C7F7F69000B61C8 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B9C09F1C7F7F69000B61C8 /* Social.framework */; };
+		79B9C0A21C7F7F71000B61C8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B9C0A11C7F7F71000B61C8 /* SystemConfiguration.framework */; };
+		79B9C0A41C7F7F78000B61C8 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B9C0A31C7F7F77000B61C8 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,9 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7981FB691C860C2200ABE98B /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		7981FB6B1C86100F00ABE98B /* KinveyKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KinveyKit.framework; sourceTree = "<group>"; };
 		79B9C06A1C7F7EF6000B61C8 /* KinveyIOSGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KinveyIOSGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B9C06D1C7F7EF6000B61C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		79B9C06F1C7F7EF6000B61C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		79B9C0721C7F7EF6000B61C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79B9C0751C7F7EF6000B61C8 /* KinveyIOSGuide.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KinveyIOSGuide.xcdatamodel; sourceTree = "<group>"; };
 		79B9C0771C7F7EF6000B61C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +49,16 @@
 		79B9C0811C7F7EF6000B61C8 /* KinveyIOSGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinveyIOSGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B9C0851C7F7EF6000B61C8 /* KinveyIOSGuideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinveyIOSGuideTests.swift; sourceTree = "<group>"; };
 		79B9C0871C7F7EF6000B61C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79B9C0931C7F7F39000B61C8 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		79B9C0951C7F7F40000B61C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		79B9C0971C7F7F48000B61C8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		79B9C0991C7F7F52000B61C8 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		79B9C09B1C7F7F5C000B61C8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		79B9C09D1C7F7F63000B61C8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		79B9C09F1C7F7F69000B61C8 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		79B9C0A11C7F7F71000B61C8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		79B9C0A31C7F7F77000B61C8 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		79B9C0A51C7F8052000B61C8 /* KinveyIOSGuide-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KinveyIOSGuide-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +66,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79B9C0A41C7F7F78000B61C8 /* WebKit.framework in Frameworks */,
+				79B9C0A21C7F7F71000B61C8 /* SystemConfiguration.framework in Frameworks */,
+				79B9C0A01C7F7F69000B61C8 /* Social.framework in Frameworks */,
+				79B9C09E1C7F7F63000B61C8 /* Security.framework in Frameworks */,
+				79B9C09C1C7F7F5C000B61C8 /* MobileCoreServices.framework in Frameworks */,
+				79B9C09A1C7F7F52000B61C8 /* libsqlite3.tbd in Frameworks */,
+				79B9C0981C7F7F48000B61C8 /* CoreLocation.framework in Frameworks */,
+				7981FB6C1C86100F00ABE98B /* KinveyKit.framework in Frameworks */,
+				79B9C0961C7F7F40000B61C8 /* CoreGraphics.framework in Frameworks */,
+				79B9C0941C7F7F39000B61C8 /* Accounts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +92,7 @@
 		79B9C0611C7F7EF6000B61C8 = {
 			isa = PBXGroup;
 			children = (
+				79B9C0901C7F7F18000B61C8 /* Frameworks */,
 				79B9C06C1C7F7EF6000B61C8 /* KinveyIOSGuide */,
 				79B9C0841C7F7EF6000B61C8 /* KinveyIOSGuideTests */,
 				79B9C06B1C7F7EF6000B61C8 /* Products */,
@@ -80,12 +112,13 @@
 			isa = PBXGroup;
 			children = (
 				79B9C06D1C7F7EF6000B61C8 /* AppDelegate.swift */,
-				79B9C06F1C7F7EF6000B61C8 /* ViewController.swift */,
 				79B9C0711C7F7EF6000B61C8 /* Main.storyboard */,
 				79B9C0771C7F7EF6000B61C8 /* Assets.xcassets */,
 				79B9C0791C7F7EF6000B61C8 /* LaunchScreen.storyboard */,
 				79B9C07C1C7F7EF6000B61C8 /* Info.plist */,
 				79B9C0741C7F7EF6000B61C8 /* KinveyIOSGuide.xcdatamodeld */,
+				79B9C0A51C7F8052000B61C8 /* KinveyIOSGuide-Bridging-Header.h */,
+				7981FB691C860C2200ABE98B /* DataViewController.swift */,
 			);
 			path = KinveyIOSGuide;
 			sourceTree = "<group>";
@@ -97,6 +130,23 @@
 				79B9C0871C7F7EF6000B61C8 /* Info.plist */,
 			);
 			path = KinveyIOSGuideTests;
+			sourceTree = "<group>";
+		};
+		79B9C0901C7F7F18000B61C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7981FB6B1C86100F00ABE98B /* KinveyKit.framework */,
+				79B9C0A31C7F7F77000B61C8 /* WebKit.framework */,
+				79B9C0A11C7F7F71000B61C8 /* SystemConfiguration.framework */,
+				79B9C09F1C7F7F69000B61C8 /* Social.framework */,
+				79B9C09D1C7F7F63000B61C8 /* Security.framework */,
+				79B9C09B1C7F7F5C000B61C8 /* MobileCoreServices.framework */,
+				79B9C0991C7F7F52000B61C8 /* libsqlite3.tbd */,
+				79B9C0971C7F7F48000B61C8 /* CoreLocation.framework */,
+				79B9C0951C7F7F40000B61C8 /* CoreGraphics.framework */,
+				79B9C0931C7F7F39000B61C8 /* Accounts.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,7 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79B9C0761C7F7EF6000B61C8 /* KinveyIOSGuide.xcdatamodeld in Sources */,
-				79B9C0701C7F7EF6000B61C8 /* ViewController.swift in Sources */,
+				7981FB6A1C860C2200ABE98B /* DataViewController.swift in Sources */,
 				79B9C06E1C7F7EF6000B61C8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,10 +381,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = KinveyIOSGuide/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.richardtrevivian.KinveyIOSGuide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KinveyIOSGuide/KinveyIOSGuide-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -342,10 +400,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = KinveyIOSGuide/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.richardtrevivian.KinveyIOSGuide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KinveyIOSGuide/KinveyIOSGuide-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -392,6 +457,7 @@
 				79B9C08C1C7F7EF6000B61C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79B9C08D1C7F7EF6000B61C8 /* Build configuration list for PBXNativeTarget "KinveyIOSGuideTests" */ = {
 			isa = XCConfigurationList;
@@ -400,6 +466,7 @@
 				79B9C08F1C7F7EF6000B61C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
